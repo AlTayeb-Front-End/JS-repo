@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        background-color: aquamarine;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-family: sans-serif;
+        border: 1px solid rgb(43, 197, 73);
+        border-radius: 20px;
+        margin: 10px;
+      }
+      label {
+        margin: 20px;
+        font-size: 20px;
+      }
+      input {
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <label for="input">User Name :</label>
+    <input type="text" id="input" />
+
+    <!-- <script>
+      let input = document.getElementById("input");
+      var globalNumber = 10; // global for all page not script level only
+      //   input.value = globalNumber;
+
+      function localNumber() {
+        globalNumber = 5;
+        var localNumberInsideFunction = 20; // can't access outside function
+      }
+      localNumber();
+      input.value = globalLetNumber;
+      console.log(globalLetNumber);
+      var globalLetNumber = 30; // hoisting only for variable which decleard by var key work
+      globalLetNumber = 40;
+    </script> -->
+    <script src="script.js"></script>
+  </body>
+</html>
