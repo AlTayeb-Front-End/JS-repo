@@ -71,8 +71,8 @@ let currentDate = new Date();
 
 // console.log(currentDate);
 // console.log(currentDate.toISOString());
-console.log(currentDate.toUTCString());
-console.log("***************************************");
+// console.log(currentDate.toUTCString());
+// console.log("***************************************");
 
 // console.log(currentDate.toLocaleString());
 // console.log("***************************************");
